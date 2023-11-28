@@ -1,0 +1,97 @@
+/* All the body text gets this font and color */ 
+
+body {
+  font-family: Poppins, sans-serif;
+  color: var(--body-text-color);
+}
+
+/* Header styles */
+header {
+   padding: 24px;
+   font-size: 1.125rem;
+ }
+header a{
+  text-decoration: none;
+  color: var(--nav-color);
+}
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+.nav-links {
+  margin: 10px;
+  text-decoration: none;
+}
+title,nav-links {
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 1rem
+}
+.nav-links{
+  margin-left: 55%;
+}
+
+/* Main styles */
+.info span {
+  color: var(--info-color);
+  margin-right: 15px;
+  display: inline-block;
+}
+.info span a { 
+  color: accent color;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+h1,h3 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 2.625rem;
+  font-weight: 300;
+  margin-top: 10px;
+}
+main {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-top: 10px;
+  padding: 15px;
+  margin: auto;
+  max-width: 620px;
+  
+}
+footer,h4{
+  font-family: "libre Baskerville", serif;
+  text-align: center;
+  font-size: 1.25rem;
+  accent-color:green;
+}
+footer p {
+  max-width: 500%;
+  margin: auto; 
+}
+nav li {
+  list-style: none;
+  padding-top: 5px;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+nav li a:hover {
+  text-decoration: underline;
+}
+nav ul {
+  padding: 0;
+  width: 500px;
+  margin:20px auto;
+}
+.social-icons{
+  fill: var(--footer-text-color);
+  text-align: center;
+}
+
